@@ -1,16 +1,24 @@
-# task_manager
+# task_manager 📋
 
-A new Flutter project.
+Une application Flutter de gestion des tâches permettant de créer, organiser et suivre facilement ses tâches au quotidien.
 
-## Getting Started
+## 🚀 Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- Ajouter, modifier et supprimer des tâches
+- Marquer une tâche comme terminée
+- Organisation des tâches par statut (à faire / en cours / terminées)
+- Interface simple et intuitive
+- Persistance des données (selon implémentation : local storage / API)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technologies utilisées
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- (Optionnel) Provider / Bloc / Riverpod pour la gestion d’état
+- (Optionnel) SQLite / Hive / API REST pour le stockage des données
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Installation
+
+1. Cloner le projet :
+```bash
+git clone https://github.com/ton-utilisateur/task_manager.git
